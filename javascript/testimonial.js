@@ -100,6 +100,6 @@ document.addEventListener('DOMContentLoaded', function () {
             textElement.style.webkitLineClamp = '3';
             textElement.style.overflow = 'hidden';
             this.textContent = 'Read more';
-        }
-    }
+        }
+    }
 });

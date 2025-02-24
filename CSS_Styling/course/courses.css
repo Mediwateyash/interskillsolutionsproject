@@ -1,0 +1,469 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .download-btn {
+    background-color: #0056d2;
+    color: #fff;
+  }
+  
+  .apply-btn {
+    background-color: #ffffff;
+    color: #0056d2;
+    border: 2px solid #0056d2;
+  }
+  
+  .deadline {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 10px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .detail-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 22%;
+  }
+  
+  .detail-box p {
+    margin: 5px 0;
+  }
+  
+  .rating {
+    font-size: 24px;
+    color: #f39c12;
+    margin-bottom: 10px;
+  }
+  .Course-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .info {
+    width: 60%;
+  }
+  
+  .info h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .benefits {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    list-style: none;
+  }
+  
+  .benefits li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .highlights {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .highlights li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .watch-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ratings {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .ratings span {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .form {
+    width: 35%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+  }
+  
+  .form h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .form p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .mobile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile span {
+    margin-right: 10px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deadline {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #e74c3c;
+  }
+  .course-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .left-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .read-more {
+    color: #0056d2;
+    text-decoration: underline;
+  }
+  
+  .brochure-btn {
+    display: flex;
+    align-items: center;
+    background-color: #0056d2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .faq details {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+ 
+  
+
+
+#faq-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #0056b3;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  background-color: #f0f8ff;
+  border-left: 3px solid #007bff;
+  margin-top: 5px;
+  border-radius: 0 0 5px 5px;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.show-more-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#show-more-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#show-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+/* Unique CSS for Skills Section */
+.course-skills {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.course-skills-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Unique CSS for Course Details */
+.course-details {
+  margin-bottom: 30px;
+}
+
+.course-details-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.read-more-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+/* Unique CSS for Course Outline */
+.course-outline {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.course-outline-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.course-outline-item {
+  margin-bottom: 10px;
+}
+
+.course-outline-button {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.course-outline-button:hover {
+  background-color: #f0f0f0;
+}
+
+.view-more-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.view-more-button:hover {
+  background-color: #0056b3;
+}
+
+.read-more-link {
+  color: #007bff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
