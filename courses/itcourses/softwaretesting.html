@@ -5,13 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Software Testing </title>
   <link rel="stylesheet" href="/interskilssolutions-projectCSS_Styling/aboutus_page/faqs.css">
+  <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/header.css">
+  <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/footer.css">
+  <link rel="stylesheet" href="/interskilssolutions-project/style.css">
+
   <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/course/courses.css">
   <link rel="icon" href="/interskilssolutions-project/assets/img/icon.png" type="image/icon type">
+     <!-- FontAwesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+  
+<!-- Top Banner -->
+<div class="top-banner">
+  <span>Your Path to a Successful IT Career Begins Here and Corporate For more inform please contact us</span>
+  <a href="tel:+919619341713">Book a call now </a>
+</div>
+</div>
+<div class="pannelfather">
+  <div class="pannel">
+      <p>Welcome to Interskill solutions We provide expert traning by industry professionals to ensure quality learning. || 
+          Our job placement assistance helps you secure a Job after completing the course. || 
+          We offer personalized coaching tailored to your learning style and needs. ||     
+          Our courses are focused on practical skills as per industy requirements.</p>
+  </div>
+</div>
+<!-- Main Navigation Bar -->
+<header class="main-header">
+  <div class="logo">
+      <img src="/interskilssolutions-project/assets/img/logo.png" alt="Interskillsolution logo" class="logo-img">
+  </div>
+  <nav>
+      <ul class="nav-links">
+          <li><a href="/interskilssolutions-project/index.html">HOME</a></li>
+          <li><a href="/interskilssolutions-project/aboutus.html">ABOUT US</a></li>
+          <li class="dropdown">
+              <a href="#courses">OUR COURSES</a>
+              <ul class="dropdown-content">
+                  <li><a href="/interskilssolutions-project/course.html">It Courses</a></li>
+                  <li><a href="#course2">Civil courses</a></li>
+                  <li><a href="#course3">Mechanical courses</a></li>
+                  <li><a href="#course4">Digital Marketing</a></li>
+              </ul>
+          </li>
+          <li><a href="#testimonials">CORPORATE TRAINING</a></li>
+          <li><a href="#placement">PLACEMENT</a></li>
+          <li><a href="/interskilssolutions-project/contactus.html">CONTACT US</a></li>
+      </ul>
+      
+  </nav>
+ 
+</header>
+
   <div class="container">
  <!-- Header Section -->
-<header class="header">
+  
+<div class="header">
     <img src="/interskilssolutions-project/assets/img/logo.png" alt="Great Lakes Logo" class="logo">
     <h1>Software Testing Course</h1>
     <p class="description">
@@ -22,7 +72,7 @@
       <button class="btn apply-btn">Apply Now</button>
     </div>
     <p class="deadline">⚠️ Application for next batch <strong>Open now</strong></p>
-  </header>
+  </div>
   
   
 
@@ -138,8 +188,8 @@
       
       <div class="faq">
       <!--  Course Topics -->
-<section class="fullstack-development-topics">
-    <div class="course-topics">
+      <section id="course-topics" class="fullstack-development-topics">
+        
       <div class="course-topics">
           <h3>Software Testing Course Topics and Subtopics</h3>
       
@@ -356,7 +406,11 @@
       <button id="show-more-btn">Show More</button>
     </div>
   </div>
-
+  <script>
+    document.querySelector(".watch-btn").addEventListener("click", function() {
+        document.getElementById("course-topics").scrollIntoView({ behavior: "smooth" });
+    });
+</script>
   <script src="/interskilssolutions-project/courses/course.js"></script>
   <script src="/interskilssolutions-project/javascript/faqs.js"></script>
 </body>
