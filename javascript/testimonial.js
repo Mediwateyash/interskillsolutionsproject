@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
             rating:"★★★★★",
             text:"I got placed within a month. The teaching is excellent, and they even offer paid projects. They prepare you for interviews and help you upgrade your skills. Overall, a great experience."
         },{
-            name:"Kasturi Raut",
+            name:"Aditya Shelar",
             rating:"★★★★★",
-            text:"Great experience learning from industry experts. Highly recommend this institute for quality training and placement. Thank you! 😊"
+            text:"I have joined for Data Analytics course, trainers are highly experienced. Got hands on experience, 100% practical training. The best institute for skills upgradation and placement. I got placement in Aditya Birla. Thanks to Interskill Solutions for building my career. Over all service is bestHighly recommended to all"
         },{
             name: "Nikhil Baburao Shivalkar",
             rating: "★★★★★",
