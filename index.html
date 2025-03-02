@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interskill Solutions</title>
-   <link rel="stylesheet" href="/interskilssolutions-project/style.css">
-   <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/header.css">
-   <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/about.css">
-   <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/courses.css">
-   <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/placement_review.css">
-   <link rel="stylesheet" href="/interskilssolutions-project/CSS_Styling/footer.css">
-   <link rel="icon" href="/interskilssolutions-project/assets/img/icon.png" type="image/icon type">
+   <link rel="stylesheet" href="/style.css">
+   <link rel="stylesheet" href="/CSS_Styling/header.css">
+   <link rel="stylesheet" href="/CSS_Styling/about.css">
+   <link rel="stylesheet" href="/CSS_Styling/courses.css">
+   <link rel="stylesheet" href="/CSS_Styling/placement_review.css">
+   <link rel="stylesheet" href="/CSS_Styling/footer.css">
+   <link rel="icon" href="/assets/img/icon.png" type="image/icon type">
    <!-- FontAwesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -30,32 +30,55 @@
             We offer personalized coaching tailored to your learning style and needs. ||     
             Our courses are focused on practical skills as per industy requirements.</p>
     </div>
-</div>
-<!-- Main Navigation Bar -->
+</div><!-- Main Navigation Bar -->
 <header class="main-header">
-    <div class="logo">
-        <img src="/interskilssolutions-project/assets/img/logo.png" alt="Interskillsolution logo" class="logo-img">
-    </div>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="/interskilssolutions-project/aboutus.html">ABOUT US</a></li>
-            <li class="dropdown">
-                <a href="#courses">OUR COURSES</a>
-                <ul class="dropdown-content">
-                    <li><a href="/interskilssolutions-project/course.html">It Courses</a></li>
-                    <li><a href="#course2">Civil courses</a></li>
-                    <li><a href="#course3">Mechanical courses</a></li>
-                    <li><a href="#course4">Digital Marketing</a></li>
-                </ul>
-            </li>
-            <li><a href="#testimonials">CORPORATE TRAINING</a></li>
-            <li><a href="#placement">PLACEMENT</a></li>
-            <li><a href="/contactus.html">CONTACT US</a></li>
-        </ul>
-        
-    </nav>
-   
+  <div class="logo">
+      <img src="/assets/img/logo.png" alt="Interskillsolution logo" class="logo-img">
+  </div>
+  <nav>
+      <ul class="nav-links">
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/aboutus.html">ABOUT US</a></li>
+          <li class="dropdown">
+              <a href="#courses">OUR COURSES ▾</a>
+              <ul class="dropdown-content">
+                  <li class="dropdown">
+                      <a href="#">IT Courses ▸</a>
+                      <ul class="dropdown-submenu">
+                          <li><a href="/courses/itcourses/datascience.html">Data Science</a></li>
+                          <li><a href="/courses/itcourses/Dataanalytics.html">Data Analytics</a></li>
+                          <li><a href="/courses/itcourses/Fullstackwebdev.html">Full Stack Development</a></li>
+                          <li><a href="/courses/itcourses/Fullstackwebdev.html">MERN Stack Development</a></li>
+                          <li><a href="/courses/itcourses/Cloudcomputing.html">Cloud Computing</a></li>
+                          <li><a href="/courses/itcourses/ethicalhacking.html">Ethical Hacking</a></li>
+                          <li><a href="/courses/itcourses/cybersecurity.html">Cyber Security</a></li>
+                          <li><a href="/courses/itcourses/python.html">Python Development</a></li>
+                          <li><a href="/courses/itcourses/softwaretesting.html">Software Testing</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#">Civil Courses ▸</a>
+                      <ul class="dropdown-submenu">
+                          <li><a href="/courses/itcourses/datascience.html">Data Science</a></li>
+                          <li><a href="/courses/itcourses/Dataanalytics.html">Data Analytics</a></li>
+                          <li><a href="/courses/itcourses/Fullstackwebdev.html">Full Stack Development</a></li>
+                          <li><a href="/courses/itcourses/Fullstackwebdev.html">MERN Stack Development</a></li>
+                          <li><a href="/courses/itcourses/Cloudcomputing.html">Cloud Computing</a></li>
+                          <li><a href="/courses/itcourses/ethicalhacking.html">Ethical Hacking</a></li>
+                          <li><a href="/courses/itcourses/cybersecurity.html">Cyber Security</a></li>
+                          <li><a href="/courses/itcourses/python.html">Python Development</a></li>
+                          <li><a href="/courses/itcourses/softwaretesting.html">Software Testing</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#course3">Mechanical Courses</a></li>
+                  <li><a href="#course4">Digital Marketing</a></li>
+              </ul>
+          </li>
+          <li><a href="#testimonials">CORPORATE TRAINING</a></li>
+          <li><a href="#placement">PLACEMENT</a></li>
+          <li><a href="/contactus.html">CONTACT US</a></li>
+      </ul>
+  </nav>
 </header>
 
 <!-- Hero section with slider  -->
@@ -65,12 +88,12 @@
     <div class="hero-slides">
       <div class="hero-slide">
         <a class="hero-explore-btn" href="#">Explore</a>
-        <img src="/interskilssolutions-project/assets/img/heroimg/Welcome.png" alt="Slide 1">
+        <img src="/assets/img/heroimg/Welcome.png" alt="Slide 1">
         <div class="hero-caption"></div>
       </div>
       <div class="hero-slide">
         <a class="hero-explore-btn" href="#">Explore</a>
-        <img src="/interskilssolutions-project/assets/img/heroimg/features.png" alt="Slide 2">
+        <img src="/assets/img/heroimg/features.png" alt="Slide 2">
         <div class="hero-caption"></div>
       </div>
  
@@ -102,12 +125,12 @@
                 <p>Interskill Solutions, an ISO 9001:2015 certified institute located in Thane, Maharashtra, is dedicated to bridging the gap between industry expectations and aspiring professionals. Our team of expert trainers, associates, and mentors brings rich industry experience to equip learners with relevant, futuristic skills that drive employability and career growth.</p>
                 <p>We focus on empowering individuals across fields like Full Stack Development, Artificial Intelligence, Data Analytics, Digital Transformation, and more. With hands-on experience and real-time projects, we help learners gain expertise in key sectors such as IT, Banking, Insurance, Retail, Healthcare, and Manufacturing. Our mission is to make quality training accessible, nurturing graduates to meet industry standards and enabling a smooth transition into the corporate world..</p>
                 <p>Join Interskill Solutions to secure your future with in-demand skills and embark on a career-ready journey aligned with today’s dynamic job market.</p>
-                <a href="/interskilssolutions-project/aboutus.html">
+                <a href="/aboutus.html">
                     <button class="read-more">Read More</button>
                   </a>
             </div>
             <div class="image">
-                <img src="/interskilssolutions-project/assets/img/about-us.jpg  " alt="Institute Image">
+                <img src="/assets/img/about-us.jpg  " alt="Institute Image">
             </div>
         </div>
     </div>
@@ -194,7 +217,7 @@
     <!-- Courses Section -->
     <div class="container">
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/data science.png" alt="Data Science">
+            <img src="/assets/course/data science.png" alt="Data Science">
             <div class="card-content">
                 <p>#PopularChoice -</p>
                 <h3>Data Science</h3>
@@ -203,12 +226,12 @@
                     <span><i class="icon">&#128221;</i> Live Projects: </span>
                 </div>
                 <p>📚 600+ Active Learners</p>
-                <a href="/interskilssolutions-project//courses/itcourses/datascience.html" class="learn-more">Learn More</a>
+                <a href="/courses/itcourses/datascience.html" class="learn-more">Learn More</a>
             </div>
         </div>
         
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/data analyatics.png" alt="Data Analytics">
+            <img src="/assets/course/data analyatics.png" alt="Data Analytics">
             <div class="card-content">
                 <p>#TopPick -</p>
                 <h3>Data Analytics</h3>
@@ -217,12 +240,12 @@
                     <span><i class="icon">&#128221;</i> Live Projects: 12</span>
                 </div>
                 <p>📚 350+ Active Learners</p>
-                <a href="/interskilssolutions-project/courses/itcourses/Dataanalytics.html" class="learn-more">Learn More</a>
+                <a href="/courses/itcourses/Dataanalytics.html" class="learn-more">Learn More</a>
             </div>
         </div>
         
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/fullstack.png" alt="Full Stack Development">
+            <img src="/assets/course/fullstack.png" alt="Full Stack Development">
             <div class="card-content">
                 <p>#Trending -</p>
                 <h3>Full Stack Development</h3>
@@ -231,12 +254,12 @@
                     <span><i class="icon">&#128221;</i> Live Projects: 20</span>
                 </div>
                 <p>📚 500+ Active Learners</p>
-                <a href="/interskilssolutions-project/courses//itcourses/Fullstackwebdev.html" class="learn-more">Learn More</a>
+                <a href="/courses//itcourses/Fullstackwebdev.html" class="learn-more">Learn More</a>
             </div>
         </div>
         
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/cloud computing.png" alt="MERN Stack Development">
+            <img src="/assets/course/cloud computing.png" alt="MERN Stack Development">
             <div class="card-content">
                 <p>#HighlyRated -</p>
                 <h3>Cloud Computing</h3>
@@ -245,12 +268,12 @@
                     <span><i class="icon">&#128221;</i> Live Projects: 16</span>
                 </div>
                 <p>📚 400+ Active Learners</p>
-                <a href="/interskilssolutions-project/courses/itcourses/Cloudcomputing.html" class="learn-more">Learn More</a>
+                <a href="/courses/itcourses/Cloudcomputing.html" class="learn-more">Learn More</a>
             </div>
         </div>
         
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/Ethical hacking.png" alt="Ethical Hacking">
+            <img src="/assets/course/Ethical hacking.png" alt="Ethical Hacking">
             <div class="card-content">
                 <p>#TechSavvy -</p>
                 <h3>Ethical Hacking</h3>
@@ -259,12 +282,12 @@
                     <span><i class="icon">&#128221;</i> Live Projects: 10</span>
                 </div>
                 <p>📚 300+ Active Learners</p>
-                <a href="/interskilssolutions-project/courses/itcourses/ethicalhacking.html" class="learn-more">Learn More</a>
+                <a href="/courses/itcourses/ethicalhacking.html" class="learn-more">Learn More</a>
             </div>
         </div>
         
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/cyber security.png" alt="Cloud Computing / Linux">
+            <img src="/assets/course/cyber security.png" alt="Cloud Computing / Linux">
             <div class="card-content">
                 <p>#FutureReady -</p>
                 <h3>Cyber Security</h3>
@@ -273,12 +296,12 @@
                     <span><i class="icon">&#128221;</i> Live Projects: 12</span>
                 </div>
                 <p>📚 500+ Active Learners</p>
-                <a href="/interskilssolutions-project/courses/itcourses/cybersecurity.html" class="learn-more">Learn More</a>
+                <a href="/courses/itcourses/cybersecurity.html" class="learn-more">Learn More</a>
             </div>
         </div>
         
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/python.png" alt="Python Development">
+            <img src="/assets/course/python.png" alt="Python Development">
             <div class="card-content">
                 <p>#BestSeller -</p>
                 <h3>Python Development</h3>
@@ -287,12 +310,12 @@
                     <span><i class="icon">&#128221;</i> Live Projects: 15</span>
                 </div>
                 <p>📚 412+ Active Learners</p>
-                <a href="/interskilssolutions-project/courses/itcourses/python.html" class="learn-more">Learn More</a>
+                <a href="/courses/itcourses/python.html" class="learn-more">Learn More</a>
             </div>
         </div>
         
         <div class="card" data-category="it">
-            <img src="/interskilssolutions-project/assets/course/Software Testing.png" alt="Software Testing">
+            <img src="/assets/course/Software Testing.png" alt="Software Testing">
             <div class="card-content">
                 <p>#EssentialSkills -</p>
                 <h3>Software Testing</h3>
@@ -301,7 +324,7 @@
                     <span><i class="icon">&#128221;</i> Live Projects: 10</span>
                 </div>
                 <p>📚 200+ Active Learners</p>
-                <a href="/interskilssolutions-project/courses/itcourses/softwaretesting.html" class="learn-more">Learn More</a>
+                <a href="/courses/itcourses/softwaretesting.html" class="learn-more">Learn More</a>
             </div>
         </div>
 
@@ -322,7 +345,7 @@
 
 <!-- Card 2: AutoCAD 2D / 3D (Basic & Advanced) -->
 <div class="card" data-category="mechanical-engineering">
-    <img src="/interskilssolutions-project/assets/course/autocad2d3d.png" alt="AutoCAD 2D / 3D Course">
+    <img src="/assets/course/autocad2d3d.png" alt="AutoCAD 2D / 3D Course">
     <div class="card-content">
         <p>#EssentialSkill -</p>
         <h3>AutoCAD 2D / 3D (Basic & Advanced)</h3>
@@ -331,13 +354,13 @@
             <span><i class="icon">&#128221;</i> Live Projects: 10</span>
         </div>
         <p>📚 320+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/MECHANICA/autocad.html" class="learn-more">Learn More</a>
+        <a href="/courses/MECHANICA/autocad.html" class="learn-more">Learn More</a>
     </div>
 </div>
 
 <!-- Card 3: CATIA V5 -->
 <div class="card" data-category="mechanical-engineering">
-    <img src="/interskilssolutions-project/assets/course/catia v5.png" alt="CATIA V5 Course">
+    <img src="/assets/course/catia v5.png" alt="CATIA V5 Course">
     <div class="card-content">
         <p>#InnovativeDesign -</p>
         <h3>CATIA V5</h3>
@@ -352,7 +375,7 @@
 
 <!-- Card 4: Solidworks -->
 <div class="card" data-category="mechanical-engineering">
-    <img src="/interskilssolutions-project/assets/course/solid works.png And White Modern Web Development Service Instagram Post.png" alt="Solidworks Course">
+    <img src="/assets/course/solid works.png And White Modern Web Development Service Instagram Post.png" alt="Solidworks Course">
     <div class="card-content">
         <p>#CreativeEngineering -</p>
         <h3>Solidworks</h3>
@@ -397,7 +420,7 @@
 
 <!-- Card 7: Unigraphics -->
 <div class="card" data-category="mechanical-engineering">
-    <img src="/interskilssolutions-project/assets/course/unigraphics.png" alt="Unigraphics Course">
+    <img src="/assets/course/unigraphics.png" alt="Unigraphics Course">
     <div class="card-content">
         <p>#AdvancedModeling -</p>
         <h3>Unigraphics</h3>
@@ -412,7 +435,7 @@
 
 <!-- Card 8: PDMS -->
 <div class="card" data-category="mechanical-engineering">
-    <img src="/interskilssolutions-project/assets/course/pdms.png" alt="PDMS Course">
+    <img src="/assets/course/pdms.png" alt="PDMS Course">
     <div class="card-content">
         <p>#ProcessDesignPro -</p>
         <h3>PDMS</h3>
@@ -421,13 +444,13 @@
             <span><i class="icon">&#128221;</i> Live Projects: 14</span>
         </div>
         <p>📚 260+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/MECHANICA/pdms.html" class="learn-more">Learn More</a>
+        <a href="/courses/MECHANICA/pdms.html" class="learn-more">Learn More</a>
     </div>
 </div>
 
        <!-- Card 1: AutoCAD -->
 <div class="card" data-category="civil-engineering">
-    <img src="/interskilssolutions-project/assets/course/autocad2d3d.png" alt="AutoCAD Course">
+    <img src="/assets/course/autocad2d3d.png" alt="AutoCAD Course">
     <div class="card-content">
         <p>#EssentialDesignTool -</p>
         <h3>AutoCAD</h3>
@@ -436,7 +459,7 @@
             <span><i class="icon">&#128221;</i> Live Projects: 10</span>
         </div>
         <p>📚 320+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/MECHANICA/autocad.html" class="learn-more">Learn More</a>
+        <a href="/courses/MECHANICA/autocad.html" class="learn-more">Learn More</a>
     </div>
 </div>
 <!-- Card 2: BIM -->
@@ -450,12 +473,12 @@
             <span><i class="icon">&#128221;</i> Live Projects: 18</span>
         </div>
         <p>📚 500+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/civil/bim.html" class="learn-more">Learn More</a>
+        <a href="/courses/civil/bim.html" class="learn-more">Learn More</a>
     </div>
 </div>
 <!-- Card 2: 3Ds Max with V-Ray -->
 <div class="card" data-category="civil-engineering">
-    <img src="/interskilssolutions-project/assets/course/3dx max.png" alt="3Ds Max with V-Ray Course">
+    <img src="/assets/course/3dx max.png" alt="3Ds Max with V-Ray Course">
     <div class="card-content">
         <p>#VisualizeIn3D -</p>
         <h3>3Ds Max with V-Ray</h3>
@@ -479,13 +502,13 @@
             <span><i class="icon">&#128221;</i> Live Projects: 14</span>
         </div>
         <p>📚 400+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/civil/structuraldes.html" class="learn-more">Learn More</a>
+        <a href="/courses/civil/structuraldes.html" class="learn-more">Learn More</a>
     </div>
 </div>
 
 <!-- Card 4: Google Sketchup -->
 <div class="card" data-category="civil-engineering">
-    <img src="/interskilssolutions-project/assets/course/sketchup.png" alt="Google Sketchup Course">
+    <img src="/assets/course/sketchup.png" alt="Google Sketchup Course">
     <div class="card-content">
         <p>#QuickModeling -</p>
         <h3>Google Sketchup</h3>
@@ -500,7 +523,7 @@
 
 <!-- Card 5: Lumion -->
 <div class="card" data-category="civil-engineering">
-    <img src="/interskilssolutions-project/assets/course/lumino.png" alt="Lumion Course">
+    <img src="/assets/course/lumino.png" alt="Lumion Course">
     <div class="card-content">
         <p>#RealTimeRendering -</p>
         <h3>Lumion</h3>
@@ -515,7 +538,7 @@
 
 <!-- Card 6: Staad Pro -->
 <div class="card" data-category="civil-engineering">
-    <img src="/interskilssolutions-project/assets/course/" alt="Staad Pro Course">
+    <img src="/assets/course/" alt="Staad Pro Course">
     <div class="card-content">
         <p>#StructuralAnalysis -</p>
         <h3>Staad Pro</h3>
@@ -524,13 +547,13 @@
             <span><i class="icon">&#128221;</i> Live Projects: 15</span>
         </div>
         <p>📚 350+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/civil/staadpro.html" class="learn-more">Learn More</a>
+        <a href="/courses/civil/staadpro.html" class="learn-more">Learn More</a>
     </div>
 </div>
 
 <!-- Card 7: E Tabs -->
 <div class="card" data-category="civil-engineering">
-    <img src="/interskilssolutions-project/assets/course/etabs.png" alt="E Tabs Course">
+    <img src="/assets/course/etabs.png" alt="E Tabs Course">
     <div class="card-content">
         <p>#AdvancedSeismicAnalysis -</p>
         <h3>E Tabs</h3>
@@ -539,7 +562,7 @@
             <span><i class="icon">&#128221;</i> Live Projects: 12</span>
         </div>
         <p>📚 270+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/civil/etabs.html" class="learn-more">Learn More</a>
+        <a href="/courses/civil/etabs.html" class="learn-more">Learn More</a>
     </div>
 </div>
 
@@ -554,7 +577,7 @@
             <span><i class="icon">&#128221;</i> Live Projects: 20</span>
         </div>
         <p>📚 400+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/civil/teklastructure.html" class="learn-more">Learn More</a>
+        <a href="/courses/civil/teklastructure.html" class="learn-more">Learn More</a>
     </div>
 </div>
 
@@ -563,7 +586,7 @@
 
 <!-- Card 1: Search Engine Optimization (SEO) -->
 <div class="card" data-category="digital-marketing">
-    <img src="/interskilssolutions-project/assets/course/digital marketing .png" alt="Search Engine Optimization (SEO) Course">
+    <img src="/assets/course/digital marketing .png" alt="Search Engine Optimization (SEO) Course">
     <div class="card-content">
         <p>#SEOExpert -</p>
         <h3>Digital Marketing</h3>
@@ -572,40 +595,33 @@
             <span><i class="icon">&#128221;</i> Live Projects: 10</span>
         </div>
         <p>📚 300+ Active Learners</p>
-        <a href="/interskilssolutions-project/courses/itcourses/Digitalmarketing.html" class="learn-more">Learn More</a>
+        <a href="/courses/itcourses/Digitalmarketing.html" class="learn-more">Learn More</a>
     </div>
 </div>
-
-
-
 
 <div class="recruiters-section">
     <h2>Our Recruiters</h2>
     <p>Our students are trusted by top companies worldwide.</p>
     <div class="recruiters-logos">
-      <img src="assets/company/Accenture.png" alt="tcs">
-      <img src="assets/company/Capgemini.png" alt="ShawMan Software">
-      <img src="assets/company/Clover.png" alt="ShawMan Software">  
-      <img src="assets/company/com_logo1.png" alt="ShawMan Software">
-      <img src="assets/company/Eclerx.png" alt="ShawMan Software">
-      <img src="assets/company/Just-dial.png" alt="ShawMan Software">
-      <img src="assets/company/Sanky-solutions.png" alt="ShawMan Software">
-      <img src="assets/company/Tata-Consultancy.png" alt="ShawMan Software">
-      <img src="assets/company/Tech-mahindra.png" alt="ShawMan Software">
-      <img src="/interskilssolutions-project/assets/company/Clover.png" alt="Partner 1">
-      <img src="/interskilssolutions-project/assets/company/deloitte-logo-0.png" alt="Partner 10">
-      <img src="/interskilssolutions-project/assets/company/Jaguar-Logo-2012-present.png" alt="Partner 11">
-      <img src="/interskilssolutions-project/assets/company/siemens-logo-0.png" alt="Partner 12">
-      <img src="/interskilssolutions-project/assets/company/Jio-Logo.png" alt="Partner 13">
+      <img src="/assets/company/Accenture.png" alt="tcs">
+      <img src="/assets/company/Capgemini.png" alt="ShawMan Software">
+      <img src="/assets/company/Clover.png" alt="ShawMan Software">  
+      <img src="/assets/company/com_logo1.png" alt="ShawMan Software">
+      <img src="/assets/company/Eclerx.png" alt="ShawMan Software">
+      <img src="/assets/company/Just-dial.png" alt="ShawMan Software">
+      <img src="/assets/company/Sanky-solutions.png" alt="ShawMan Software">
+      <img src="/assets/company/Tata-Consultancy.png" alt="ShawMan Software">
+      <img src="/assets/company/Tech-mahindra.png" alt="ShawMan Software">
+      <img src="/assets/company/Clover.png" alt="Partner 1">
+      <img src="/assets/company/deloitte-logo-0.png" alt="Partner 10">
+      <img src="/assets/company/Jaguar-Logo-2012-present.png" alt="Partner 11">
+      <img src="/assets/company/siemens-logo-0.png" alt="Partner 12">
+      <img src="/assets/company/Jio-Logo.png" alt="Partner 13">
     </div>
 </div>
 
-
           <!-- Repeat similar structure for other profile cards -->
         </div>
-      
-        <button class="carousel-button prev" onclick="prevSlide()">❮</button>
-        <button class="carousel-button next" onclick="nextSlide()">❯</button>
       </div>
 </section>
 
@@ -678,6 +694,14 @@
                 <li><a href="/courses/itcourses/Digitalmarketing.html">Digital Marketing</a></li>
             </ul>
         </div>
+        
+        <div class="address-section">
+            <h3>Main Branch</h3>
+            <p>505, Paradise Tower, Gokhale Rd, nr. McDonald, Naupada, Thane West, Maharashtra </p>
+      
+            <h3>Another Branch</h3>
+            <p>Office No .14 , Opp Moti Mehel Restaurant Cama Rd, Near Andheri Railway Station</p>
+          </div>
 
         <div class="social-media">
             <h3>Follow Us</h3>
@@ -693,10 +717,10 @@
     </div>
 </footer>
 
-<script src="/interskilssolutions-project/javascript/course.js"></script>
-<script src="/interskilssolutions-project/javascript/herosection.js"></script>
-<script src="/interskilssolutions-project/javascript/placedstd.js"></script>
-<script src="/interskilssolutions-project/javascript/testimonial.js"></script>
-<script src="/interskilssolutions-project/javascript/stats.js"></script>
+<script src="javascript/course.js"></script>
+<script src="/javascript/herosection.js"></script>
+<script src="/javascript/placedstd.js"></script>
+<script src="/javascript/testimonial.js"></script>
+<script src="/javascript/stats.js"></script>
 </body>
 </html>
